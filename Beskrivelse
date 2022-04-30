@@ -80,7 +80,7 @@ Funksjonskrav:
 
           Bruker	    ( e-postadresse , passordhash, fornavn, etternavn)
           Sesjon	    ( sesjonsID , e-postadresse*)
-          Dikt	      ( diktID, dikt, e-postadresse*)
+          Dikt	          ( diktID, dikt, e-postadresse*)
           
           
 2.	Lag et CGI-program som 
