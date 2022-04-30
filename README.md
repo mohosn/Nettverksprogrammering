@@ -77,8 +77,6 @@ Funksjonskrav:
 
 1.	Lag en sqlite-database som har følgende skjema: 
 
-                      Databaseskjema for diktdatabase
-
           Bruker	    ( e-postadresse , passordhash, fornavn, etternavn)
           Sesjon	    ( sesjonsID , e-postadresse*)
           Dikt	            ( diktID, dikt, e-postadresse*)
