@@ -49,8 +49,8 @@ Navneforslag	                        Kommentar
 
 /bin/	                   Her kommer busybox-lenkene og webtjeneren
 /proc/	                   Et virtuelt filsystem for prosess-informasjon
-/var/www/	            En katalog som skal være webroten.
-/var/log/debug.log	    Logg-fila som skal være koblet til STDERR. Denne bør ikke ligge i webrota.
+/var/www/	           En katalog som skal være webroten.
+/var/log/debug.log	   Logg-fila som skal være koblet til STDERR. Denne bør ikke ligge i webrota.
 /etc/mime.types	           For å identifisere mime-type utfra fil-etternavn
 
 
