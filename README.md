@@ -93,10 +93,10 @@ o	Med API'et skal det være mulig å:
 	dersom brukeren/webklienten er innlogget, er det mulig å gjøre følgende: 
 
            1.	hente ut ett bestemt dikt (gitt diktID)
-           2.   hente alle dikt,
-           3.   legge til nytt dikt,
+           2.       hente alle dikt,
+           3.      legge til nytt dikt,
            4. 	endre egne dikt,
-           5. 	slette eget dikt (gitt diktID) og
+           5. 	   slette eget dikt (gitt diktID) og
            6.   slette alle egne dikt
 
 	dersom brukeren/webklienten ikke er logget inn skal det bare være mulig å gjøre leseoperasjonene – ikke endringer.
