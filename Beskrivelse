@@ -80,7 +80,7 @@ Funksjonskrav:
 
           Bruker	    ( e-postadresse , passordhash, fornavn, etternavn)
           Sesjon	    ( sesjonsID , e-postadresse*)
-          Dikt	          ( diktID, dikt, e-postadresse*)
+          Dikt	            ( diktID, dikt, e-postadresse*)
           
           
 2.	Lag et CGI-program som 
@@ -157,6 +157,7 @@ Det skal lages en web-applikasjon som gir et webgrensesnitt mot dikt-databasen i
 6.	når klienten brukes med en nettleser som støtter Service workers, gi brukeren tilgang til lese-operasjonener på alle diktene selv når den ikke har tilgang til tjeneren. 
 
 Dette skal besørges av en service worker som, ved første mulighet, lagrer følgende i et mellomlager (cache): 
+
 o	alle filene den trenger (HTML, js, css, etc.) og
 o	alle diktene i databasen.
 
