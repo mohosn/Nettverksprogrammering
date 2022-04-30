@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/style.css">
+    <title>Poem-Server</title>
+</head>
+
+<body onload="onLoadFunc()"> <!-- when page loads it invokes the onLoadFunc from script.js -->
+    <h1> Poem Database WebServer</h1>
+    <div id="login-div">
+        <form name="login-data" method="post">
+            <div id="mail">
+                <label for="email">Email:</label></br>
+                <input type="email" id="email" name="email"></br>
+            </div>
+            <div>
+                <label for="password">Password: </label></br>
+                <input type="password" id="password" name="password"></br>
+            </div>
+            <div>
+                <p><input type="button" onclick="getLoginData()" id="login-btn" name="login" value="Login"></p>
+            </div>
+        </form>
+    </div>
+    <div id="logout-div">
+        <p><input type="button" onclick="logoutFunc()" id="logout-btn" name="logout" value="Logout" display="none"></p>
+    </div>
+    <h2>SEARCH Poem</h2>
+    <form name="search-poem" method="get">
+        <div>
+            <p><input type="button" onclick="getAllPoem()" id="all-poem" name="all-poem" value="All Poem"></p>
+        </div>
+    </form>
+    <div >
+        <table id="show-all-poem"  style="display: none;">
+        </table>
+    </div>
+    
+    <form name="search-poem-id" method="post">
+        <div id="poemID">
+            <label for="poemID">Poem ID</label></br>
+            <input type="text" id="poemID" name="poemID"></br>
+        </div>
+        <div>
+            <p><input type="button" onclick="getPoemByID()" id="poem-by-id" name="poem-by-id" value="Search"></p>
+        </div>
+    </form>
+    <div >
+        <table id="show-poem-by-id" style="display: none;">
+        </table>
+    </div>
+    
+    <div id="restricted-routes" style="display: none;"> <!-- by default this div is hidden -->
+        <form name="search-own-poem" method="get">
+            <div>
+                <p><input type="button" onclick="getAllOwnPoem()" id="all-own-poem" name="all-own-poem" value="Own Poems"></p>
+            </div>
+        </form>
+        <div >
+            <table id="show-all-own-poem" style="display: none;">
+            </table>
+        </div>
+        <h2>ADD Poem</h2>
+        <form name="add-poem" method="post">
+            <div id="poem-add">
+                <label for="title">Title</label></br>
+                <input type="title" id="title" name="title"></br>
+            </div>
+            <div>
+                <p><input type="button" onclick="addPoem()" id="add-poem-btn" name="add-poem-btn" value="Add Poem"></p>
+            </div>
+        </form>
+
+        <h2>EDIT Poem</h2>
+        <form name="edit-poem" method="post">
+            <div id="poem-edit-id">
+                <label for="id">ID</label></br>
+                <input type="id" id="id" name="id"></br>
+            </div>
+            <div id="poem-edit-title">
+                <label for="title">Title</label></br>
+                <input type="title" id="title" name="title"></br>
+            </div>
+            <div>
+                <p><input type="button" onclick="editPoem()" id="edit-poem-btn" name="edit-poem-btn" value="Edit Poem"></p>
+            </div>
+        </form>
+
+        <h2>DELETE Poem</h2>
+        <form name="delete-poem" method="post">
+            <div id="delete-edit-id">
+                <label for="id">ID</label></br>
+                <input type="id" id="id" name="id"></br>
+            </div>
+            <div>
+                <p><input type="button" onclick="deletePoem()" id="delete-poem-btn" name="delete-poem-btn" value="Delete Poem"></p>
+            </div>
+            <div>
+                <p><input type="button" onclick="deleteAllPoem()" id="delete-all-poem-btn" name="delete-all-poem-btn" value="Delete All Own Poem"></p>
+            </div>
+        </form>
+        
+    </div>
+    <br><br>
+    <a href="http://localhost/gruppe11-xml.xml">Group Info</a>
+    <script src="./script.js"></script> <!-- linked script.js with ui.html -->
+</body>
+
+</html>

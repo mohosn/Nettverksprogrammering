@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="gruppe11-xml.css"?>
+
+<gruppe_for_gruppe>
+	
+	<title> GRUPPE 11 </title>
+	
+	
+	
+	
+	<gruppe_section>	
+		<name>1</name>
+	</gruppe_section>
+	
+	<gruppe_section>
+		<name>2</name>
+	</gruppe_section>
+	
+	<gruppe_section>
+		<name>3</name>
+	</gruppe_section>
+	
+	<gruppe_section>
+		<name>4</name>
+	</gruppe_section>
+	
+
+</gruppe_for_gruppe>
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="poemdb">
+    <xs:complexType>
+     <xs:choice maxOccurs="unbounded">
+        <xs:element name="User">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="email"/>
+              <xs:element name="password"/>
+              <xs:element name="fname"/>
+              <xs:element name="lname"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Session">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sessionID"/>
+            <xs:element name="email"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Poem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="poemID"/>
+              <xs:element name="poem"/>
+      		  <xs:element name="email"/>
+      			</xs:sequence>
+    		</xs:complexType>
+  		</xs:element>
+ 		</xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

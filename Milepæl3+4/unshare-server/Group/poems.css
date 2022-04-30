@@ -1,0 +1,42 @@
+
+
+poemdb {
+display: table; 
+border: solid 1px;
+background-color: rgb(179, 189, 189);  
+font-weight: bold;
+padding: auto;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+Poem {
+    display: table-row;
+    text-align: center;
+    font-size: 32px;
+    border: solid 1px;
+}
+poem{
+    display: table-cell;
+    border: solid 1px;
+    padding: 15px;
+    
+}
+
+poemID {
+    display: table-cell;
+    border: solid 1px;
+    padding: 15px;
+}
+
+email{
+    display: table-cell;
+    border: solid 1px;
+    padding: 15px;
+}
+
+Poem:hover {
+    background-color: azure;
+}

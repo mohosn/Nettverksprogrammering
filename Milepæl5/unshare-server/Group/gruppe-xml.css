@@ -1,0 +1,54 @@
+
+gruppe_for_gruppe {
+	font-size:	80%;
+	margin:		0.5em;
+	font-family: "Times New Roman";
+	display:	block;
+}
+
+gruppe_section{
+	display:		block;
+	border:			1px solid silver;
+	margin:			0.5em;
+	padding:		0.5em;
+	background-color:	whitesmoke;
+}
+
+title{
+	display:		block;
+	font-weight:	bolder;
+	text-align:		center;
+	font-size:		30px;
+	background-color:	blue;
+	color:				white;
+}
+
+
+gruppeid, name, klasse, sted {
+	display:		block;
+	text-align:		center;
+}
+
+
+gruppeid {
+    font-family:      "Times New Roman";
+    font-size:        32px;
+ }
+ 
+
+name{
+	color:			black;
+	text-decoration:none;
+	font-weight:	bolder;
+	font-size:		20px;
+}
+
+
+klasse{
+	color:			blue;
+}
+
+
+sted{
+	color:			gold;
+} 

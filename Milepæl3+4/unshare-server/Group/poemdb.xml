@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://172.17.0.1/poemdb.xsl"?>
+<poemdb xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://172.17.0.1/ poemdb.xsd">
+  <User>
+    <email>hu@gmail.com</email>
+    <password>81dc9bdb52d04dc20036dbd8313ed055</password>
+    <fname>hu</fname>
+    <lname>The man</lname>
+  </User>
+  <Session>
+    <sessionID>81dc9bdb52d04dc20036dbd8313ed055</sessionID>
+    <email>mu@gmail.com</email>
+  </Session>
+  <Poem>
+    <poemID>1</poemID>
+    <poem>Hi</poem>
+    <email>hu@gmail.com</email>
+  </Poem>
+  <Poem>
+    <poemID>2</poemID>
+    <poem>Hi</poem>
+    <email>hu@gmail.com</email>
+  </Poem>
+</poemdb>
