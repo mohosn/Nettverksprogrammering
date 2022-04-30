@@ -82,7 +82,8 @@ Funksjonskrav:
           Dikt	            ( diktID, dikt, e-postadresse*)
           
           
-2.	Lag et CGI-program som 
+2.	Lag et CGI-program som: 
+
 o	er et shell-skript
 o	gir et RESTful API mot sqlite-databasen fra punkt 1. over.
 o	Med API'et skal det være mulig å: 
@@ -91,12 +92,12 @@ o	Med API'et skal det være mulig å:
 	logge ut (slette sesjonsID for innlogget bruker)
 	dersom brukeren/webklienten er innlogget, er det mulig å gjøre følgende: 
 
-0.	hente ut ett bestemt dikt (gitt diktID)
-1.	hente alle dikt,
-2.	legge til nytt dikt,
-3.	endre egne dikt,
-4.	slette eget dikt (gitt diktID) og
-5.	slette alle egne dikt
+           1.	hente ut ett bestemt dikt (gitt diktID)
+           2.   hente alle dikt,
+           3.   legge til nytt dikt,
+           4. 	endre egne dikt,
+           5. 	slette eget dikt (gitt diktID) og
+           6.   slette alle egne dikt
 
 	dersom brukeren/webklienten ikke er logget inn skal det bare være mulig å gjøre leseoperasjonene – ikke endringer.
 o	bruker XML ved overføring av data i http-kroppen både ved forespørsel og respons.
