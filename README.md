@@ -51,8 +51,8 @@ Filtreet i containeren skal inneholde minst mulig. Det kan f.eks se omtrent slik
        /bin/	                                Her kommer busybox-lenkene og webtjeneren
       /proc/	                                Et virtuelt filsystem for prosess-informasjon
     /var/www/	                                En katalog som skal være webroten.
-    /var/log/debug.log	                        Logg-fila som skal være koblet til STDERR. Denne bør ikke ligge i webrota.
-    /etc/mime.types	                            For å identifisere mime-type utfra fil-etternavn
+    /var/log/debug.log	                        Logg-fila som skal være koblet til STDERR. Denne bør ikke ligge i webrota
+    /etc/mime.types	                                For å identifisere mime-type utfra fil-etternavn
 
 
 For å kjøre web-tjeneren i en container er det lurt å ha en init-prosess kørende som prosess 1. Web tjenestene kan da kjøres som et barn av init (f.eks. med PID=2). 
