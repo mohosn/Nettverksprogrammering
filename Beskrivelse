@@ -87,6 +87,7 @@ Funksjonskrav:
 o	er et shell-skript
 o	gir et RESTful API mot sqlite-databasen fra punkt 1. over.
 o	Med API'et skal det være mulig å: 
+
 	logge inn (sjekke passord mot e-postadresse, og sette sesjsonsID)
 	logge ut (slette sesjonsID for innlogget bruker)
 	dersom brukeren/webklienten er innlogget, er det mulig å gjøre følgende: 
