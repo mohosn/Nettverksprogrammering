@@ -1,11 +1,6 @@
 #!/bin/bash
 
-#logge inn  side (74)                                                         logge ut  side (136) 
 
-#Lege til nytt dikt    (Post)    Line (102)                             Hente et  dikt    (Get)  Line (170)
-#Endre egne dikt       (Put)     Line (289)                             Hent alle dikt    (Get)  Line (190)   
-#Slette eget dikt      (Delete)  Line (237)
-#Slette alle dikt      (Delete)  Line (250)
      
 function XMLGenerator() {
     echo "<?xml version='1.0' encoding='UTF-8'?>"
